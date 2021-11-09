@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>reverse</title>
+    <style>
+        @keyframes 돌아와돌아와돌아와 {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            33.3% {
+                transform: translate(700px, 0);
+            }
+
+            66.6% {
+                transform: translate(700px, 350px);
+            }
+
+            100% {
+                transform: translate(0, 350px);
+            }            
+        }
+
+        div {
+            margin-top: 80px;
+            margin-left: 100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            font-weight: 900;
+            width: 100px;
+            height: 100px;
+            background-color: rgb(196, 36, 134);
+            animation: 돌아와돌아와돌아와 5s alternate infinite;
+            border-radius: 20%;
+        }
+    </style>
+</head>
+<body>
+        <div>HyeRin</div>
+</body>
+</html>
