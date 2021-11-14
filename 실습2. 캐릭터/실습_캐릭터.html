@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐릭터 만들기</title>
+    <style>
+        body {
+            background: rgb(197, 108, 160);
+        }
+       
+        .EarRight {
+            position: absolute;
+            width: 90px;
+            height: 200px;
+            background: rgb(231, 170, 206);
+            border: 19px solid rgb(89, 48, 102);
+            margin-left: 215px;
+            margin-top: 50px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            box-shadow: 8px 8px 8px rgb(168, 45, 117);
+            transform: rotate(15deg)
+
+        }
+
+        .EarLeft {
+            position: absolute;
+            width: 90px;
+            height: 200px;
+            background: rgb(231, 170, 206);
+            border: 19px solid rgb(89, 48, 102);
+            margin-left: 50px;           
+            margin-top: 50px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            box-shadow: 8px 8px 8px rgb(168, 45, 117);
+            transform: rotate(-15deg)
+
+        }
+        .SmallEarRight {
+            position: absolute;
+            width: 50px;
+            height: 100px;
+            background: rgb(168, 45, 117);
+            margin-left: 252px;
+            margin-top: 130px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            transform: rotate(15deg)
+        }
+
+        .SmallEarLeft {
+            position: absolute;
+            width: 50px;
+            height: 100px;
+            background: rgb(168, 45, 117);
+            margin-left: 90px;
+            margin-top: 130px;
+            border-top-left-radius: 100px;
+            border-top-right-radius: 100px;
+            transform: rotate(-15deg)
+        }
+
+        .face {
+            position: absolute;
+            width: 350px;
+            height: 310px;
+            background: rgb(231, 170, 206);
+            border: 19px solid rgb(89, 48, 102);
+            border-radius: 100%;
+            margin-top: 200px;
+            box-shadow: 8px 8px 8px rgb(168, 45, 117);
+        }
+        
+        .rabbit {
+            position:relative;
+            margin: 50px auto;
+            width: 400px;
+            height: 800px;
+        }
+
+        .EyeRight {
+            position: absolute;
+            width: 50px;
+            height: 70px;
+            background: rgb(89, 48, 102);
+            border-radius: 100%;
+            margin-top: 80px;
+            margin-left: 100px;
+        }
+
+        .EyeLeft {
+            position: absolute;
+            width: 50px;
+            height: 70px;
+            background: rgb(89, 48, 102);
+            border-radius: 100%;
+            margin-top: 80px;
+            margin-left: 195px;
+        }
+
+
+        .EyeLightRight {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: rgb(231, 170, 206);
+            border-radius: 100%;
+            margin-top: 100px;
+            margin-left: 120px;
+        }
+
+        .EyeLightLeft {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            background: rgb(231, 170, 206);
+            border-radius: 100%;
+            margin-top: 100px;
+            margin-left: 210px;
+        }
+
+        .BlushRight {
+            position: absolute;
+            width: 55px;
+            height: 40px;
+            background: rgb(168, 45, 117);
+            border-radius: 100%;
+            margin-top: 160px;
+            margin-left: 219px;
+            filter:blur(2px);
+        }
+
+        .BlushLeft {
+            position: absolute;
+            width: 55px;
+            height: 40px;
+            background: rgb(168, 45, 117);
+            border-radius: 100%;
+            margin-top: 160px;
+            margin-left: 70px;
+            filter:blur(2px);
+        }
+
+
+        .Nose {
+            position: absolute;
+            width: 50px;
+            height: 30px;
+            background: rgb(89, 48, 102);
+            border-radius: 100%;
+            margin-top: 140px;
+            margin-left: 145px;
+        }
+        
+        .Mouth {
+            position: absolute;
+            width: 50px;
+            height: 10px;
+            background: rgb(89, 48, 102);
+            border-radius: 20%;
+            margin-top: 200px;
+            margin-left: 145px;
+        }
+
+        </style>
+</head>
+<body>
+    <div class="rabbit">
+        <div class="EarRight"></div>
+        <div class="EarLeft"></div>
+        <div class="SmallEarRight"></div>
+        <div class="SmallEarLeft"></div>
+        <div class="face">
+            <div class="EyeRight"></div>
+            <div class="EyeLeft"></div>
+            <div class="EyeLightRight"></div>
+            <div class="EyeLightLeft"></div>
+            <div class="BlushRight"></div>
+            <div class="BlushLeft"></div>
+            <div class="BlushLightRight"></div>
+            <div class="BlushLightLeft"></div>
+            <div class="Nose"></div>
+            <div class="Mouth"></div>
+        </div>
+    </div>
+</body>
+</html>
