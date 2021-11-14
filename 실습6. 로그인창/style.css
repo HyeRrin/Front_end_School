@@ -1,0 +1,274 @@
+@font-face {
+    font-family: 'HanSansNeo-Regular';
+    src: url('./font/SpoqaHanSansNeo-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'HanSansNeo-Medium' ;
+    src: url('./font/SpoqaHanSansNeo-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'HanSansNeo-Bold' ;
+    src: url('./font/SpoqaHanSansNeo-Bold.ttf');
+}
+
+
+#app {
+    font-family: 'HanSansNeo-Regular';
+    width: 520px;
+    height: 712px;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    margin: 100px auto;
+}
+
+.tit {
+    text-align: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #C4C4C4;
+    position: relative;
+}
+
+.tit-log {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: 'HanSansNeo-Medium';
+    font-weight: 500;
+}
+
+.img-cls {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    right: 24px;
+}
+
+.cont {
+    height: 360px;
+}
+
+.cont-tit {
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'HanSansNeo-Medium';
+    font-weight: 500;
+    padding: 26px 0 24px 24px;
+}
+
+.cont-inp {
+    padding: 0;
+    margin-right: 24px;    
+    margin-left: 24px;
+}
+
+.cont-inp .txt-id, .cont-inp .txt-pw {
+
+    width: 456px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    font-family: 'HanSansNeo-Regular';
+    font-size: 16px;
+    line-height: 20px;
+    padding-left: 16px;
+    padding-right: 0;
+}
+
+.cont-inp .txt-id {
+    margin-bottom: 10px;
+}
+
+.cont-inp .txt-pw {
+    margin-bottom: 17px; 
+}
+
+.cont-ch {
+    display: flex;
+    justify-content: start;
+    align-content: start;
+    position: relative;
+
+}
+
+.cont-ch .img-ch {
+    position: absolute;
+    width: 22px;
+    left: 28px;
+}
+
+
+.txt-ch {
+    margin-left: 58px;
+    padding-top: 2px;
+    font-family: 'HanSansNeo-Medium';
+    color: #767676;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.btn-log {
+    width: 472px;
+    height: 50px;
+    background: #2F80ED;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin: 21px 24px 20px 24px;
+}
+
+.cont .log-exc {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    position: relative;
+
+}
+
+.cont .log-exc .log-new, .cont .log-exc .log-find {
+    text-decoration: none;
+    color: #767676;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.log-exc .log-new {
+    position: absolute;
+    left: 158px;
+    padding-right: 12px;
+    border-right: 1px solid #767676;
+}
+
+.log-exc .log-find {
+    position: absolute;
+    right: 157px;
+}
+
+.an-log {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.an-log .an-txt {
+    font-size: 14px;
+    line-height: 18px;
+    color: #767676;
+    position: relative;
+    margin-bottom: 20px;
+
+}
+
+.an-txt::before {
+    content: '';
+    width: 210px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+}
+
+.an-txt::after {
+    content: '';
+    width: 210px;
+    height: 1px;
+    background: #C4C4C4;
+    position: absolute;
+    left: 0;
+    bottom: 8px;
+}
+
+.an-log {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.an-log .an-goo, .an-log .an-fac, .an-log .an-nav, .an-log .an-kak {
+    font-family: 'HanSansNeo-Medium';
+    width: 472px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #767676;
+}
+
+.an-log .an-goo {
+    position: relative;
+    border: 1.35px solid #767676;
+}
+
+.an-log .an-goo::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-image: url('./img/Google.png');
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+}
+
+.an-log .an-fac {
+    position: relative;
+    border: 1.35px solid #2D9CDB;
+}
+
+.an-log .an-fac::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-image: url('./img/facebook.png');
+    
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+}
+
+.an-log .an-nav {
+    position: relative;
+    border: 1.35px solid #00BF18;
+}
+
+.an-log .an-nav::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-image: url('./img/naver-logo.png');
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+}
+
+.an-log .an-nav {
+    position: relative;
+    border: 1.35px solid #00BF18;
+}
+
+.an-log .an-kak::before {
+    content: '';
+    width: 28px;
+    height: 28px;
+    background-image: url('./img/message-circle.png');
+    position: absolute;
+    left: 12px;
+    bottom: 11px;
+}
+
+.an-log .an-kak {
+    position: relative;
+    border: 1.35px solid #F2C94C;
+}
