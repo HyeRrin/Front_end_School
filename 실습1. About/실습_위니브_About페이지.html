@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>위니브 홈페이지 마크업 클론</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+            margin-bottom:30px;
+        }
+        .grid-item{
+            text-align:center;
+        }
+        .company {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+        .companyright {
+            text-align:right;
+        }
+        .home{
+            display: grid;
+            grid-template-columns: auto auto auto;
+            border-bottom:1px solid gray;
+        }
+        .abouthome1 {
+            text-align:left;
+        }
+        .abouthome2 {
+            text-align:right;
+            padding-right:40px;
+            font-weight:bold;
+        }
+        ul {
+             list-style-type: none;
+        }
+        footer {
+            background-color:rgb(228, 227, 227);
+            padding-top:10px;
+            padding-bottom:10px;
+        }
+        dl {
+            display:flex;
+            padding-left:40px;
+        }
+        h1, h2, p {
+            text-align:center;
+        }
+        h1 {
+            font-size:60px;
+        }
+        h2 {
+            font-size:35px;
+        }
+        p {
+            padding-bottom:20px;
+            margin-left:90px;
+            margin-right:90px;
+        }
+    </style>
+</head>
+<body>
+    <h1>About</h1>
+
+    <p><strong>"기술의 교육 기회를 누구나 차등없이 받을 수 있게 대중화, 보편화, 시스템화 하는 것"</strong>></p>
+
+    <p>우리는 교육 특권의 대중화, 고급 IT기술의 상용화를 도모합니다. 또한 지역적 특성을 극복하고 ICT 지식에 대한 갈급함을 해소할 수 있도록 노력하고 있는 ICT 연구 및 (코딩)교육 기관이며 다양한 사회 공헌 활동을 하고 있습니다.</p>
+
+    <h2>About us</h2>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <figure>
+                <img src="img/바울랩.png" alt="바울랩">
+                <figcaption>
+                    바울랩
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-item">
+            <figure>
+                <img src="img/위니브.png" alt="위니브">
+                <figcaption>
+                    위니브
+                </figcaption>
+            </figure>
+        </div>
+
+        <div class="grid-item">
+            <figure>
+                <img src="img/제주코딩베이스캠프.png" alt="제주코딩베이스캠프">
+                <figcaption>
+                    제주코딩베이스캠프
+                </figcaption>
+            </figure>
+        </div>
+    </div>
+  
+<footer>
+    <div class="home">
+        <div class="abouthome1">
+            <ul>
+                <li><strong>Home</strong></li>
+                <li>채용정보</li>
+                <li>캐릭터 소개</li>
+            </ul>
+        </div>
+    
+        <div class="abouthome1">
+            <ul>
+                <li><strong>About</strong></li>
+                <li>커리큘럼</li>
+                <li>자료실</li>
+            </ul>
+        </div>
+    
+        <div class="abouthome2">
+            <ul>
+                <li>blog</li>
+                <li>facebook</li>
+                <li>instagram</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="company">
+
+        <div class="companyright">
+            <dl>
+                <dt><strong>(주)위니브</strong>ㅣ</dt>
+                <dt><strong>대표</strong> 이호준ㅣ</dt> 
+                <dt><strong>사업자번호</strong> 546-86-01737ㅣ</dt>
+                <dt>정보통신업ㅣ</dt>
+                <dt><strong>주소</strong> 제주도 제주시 수목원길 39-1, 1층ㅣ</dt>
+            </dl>
+        </div>
+    
+        <div class="companyright">
+            <p>©Weniv Corp.</p>
+        </div>
+    
+    </div>
+
+</footer>
+
+
+</body>
+</html>
