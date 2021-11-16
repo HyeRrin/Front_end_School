@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>holy grail layout_on my own</title>
+    <link rel="stylesheet" href="./reset.css">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            border: 10px solid rgb(0, 0, 0);
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* .item {
+            border: 5px solid rgb(165, 42, 159);
+        } */
+
+        .item:nth-child(1) {
+            background-color: rgb(204, 36, 64);
+            width: 100%;
+            
+        }
+        .item:nth-child(2) {
+            background-color: rgb(250, 174, 59);
+            width: 70%;
+
+        }
+        
+        .item:nth-child(3) {
+            background-color: rgb(53, 177, 53);
+            width: 30%;
+        }
+        .item:nth-child(4) {
+            background-color: rgb(62, 186, 202);
+            width: 100%;
+           
+        }
+    </style>
+</head>
+<body>
+    <header class="item">
+        <h1>header</h1>
+        <ul>
+            <li>menu1</li>
+            <li>menu2</li>
+            <li>menu3</li>
+        </ul>
+    </header>
+    <section class="item">
+        <h2>section>article</h2>
+        <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque nam earum magnam architecto minima unde modi! Magnam ducimus placeat quam accusantium, pariatur dolor tenetur necessitatibus mollitia dolorem repellat rerum a?Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio modi doloribus sequi, molestias delectus alias velit numquam ad quaerat tempore minus tempora itaque beatae id dolores ab nobis ut ea.</article>
+    </section>
+    <aside class="item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet repudiandae ipsa sed doloremque? Deleniti nobis possimus doloribus asperiores. Maiores eius facere dicta doloremque consequatur, harum mollitia blanditiis esse.</aside>
+    <footer class="item">footer</footer>
+</body>
+</html>
